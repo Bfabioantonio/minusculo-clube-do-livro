@@ -4,6 +4,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Minúsculo Clube do Livro</title>
+
+<script> 
+    if(!localStorage.getItem("logado")){
+        window.location.href = "index.html";
+    }
+</script>
+    
 <style>
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
